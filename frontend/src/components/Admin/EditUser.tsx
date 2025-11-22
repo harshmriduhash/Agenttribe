@@ -180,3 +180,4 @@ const EditUser = ({ user, isOpen, onClose }: EditUserProps) => {
 }
 
 export default EditUser
+
