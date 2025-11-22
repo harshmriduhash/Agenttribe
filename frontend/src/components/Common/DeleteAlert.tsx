@@ -129,3 +129,4 @@ const Delete = ({ type, id, isOpen, onClose }: DeleteProps) => {
 }
 
 export default Delete
+
