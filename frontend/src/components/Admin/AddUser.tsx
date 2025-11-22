@@ -182,3 +182,4 @@ const AddUser = ({ isOpen, onClose }: AddUserProps) => {
 }
 
 export default AddUser
+
