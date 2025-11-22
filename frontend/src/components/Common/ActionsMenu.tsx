@@ -8,7 +8,6 @@ import {
 } from "@chakra-ui/react"
 import { BsThreeDotsVertical } from "react-icons/bs"
 import { FiEdit, FiTrash } from "react-icons/fi"
-
 import type { SkillOut, TeamOut, UploadOut, UserOut } from "../../client"
 import EditUser from "../Admin/EditUser"
 import EditTeam from "../Teams/EditTeam"
