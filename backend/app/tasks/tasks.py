@@ -67,3 +67,4 @@ def remove_upload(upload_id: int, user_id: int) -> None:
             session.commit()
         except Exception as e:
             print(f"remove_upload failed: {e}")
+
