@@ -27,3 +27,4 @@ api_router.include_router(uploads.router, prefix="/uploads", tags=["uploads"])
 api_router.include_router(
     apikeys.router, prefix="/teams/{team_id}/api-keys", tags=["api-keys"]
 )
+
