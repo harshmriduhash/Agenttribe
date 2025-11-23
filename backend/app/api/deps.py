@@ -75,6 +75,5 @@ def get_current_team_from_key(
         raise HTTPException(status_code=401, detail="Invalid API key")
     return team
 
-
 CurrentTeam = Annotated[Team, Depends(get_current_team_from_key)]
 
