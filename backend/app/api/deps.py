@@ -79,3 +79,4 @@ def get_current_team_from_key(
 
 
 CurrentTeam = Annotated[Team, Depends(get_current_team_from_key)]
+
