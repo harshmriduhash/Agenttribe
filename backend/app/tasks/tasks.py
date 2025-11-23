@@ -1,7 +1,6 @@
 import os
 
 from sqlmodel import Session
-
 from app.core.celery_app import celery_app
 from app.core.db import engine
 from app.core.graph.rag.qdrant import QdrantStore
